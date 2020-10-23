@@ -37,7 +37,7 @@ def on_chat_message(msg):
         else: #comando sbagliato
             bot.sendMessage(chat_id, 'scegliere un comando')
 
-TOKEN = "1278488007:AAFt3acOIg9_5axLkRzcEaH58CPgqN1AG2U" #token
+TOKEN = "" #token ovviamente inserire il proprio
 bot = telepot.Bot(TOKEN)
 bot.message_loop(on_chat_message)
 
