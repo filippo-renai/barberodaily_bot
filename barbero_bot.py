@@ -53,11 +53,6 @@ def on_chat_message(msg):
          mess3 = 'Bot creato da  @filippo1996 , un appassionato di storia, per permettere a tutti gli appassionati di godere dei contenuti del professore con un semplice click.'
          bot.sendMessage(chat_id, mess3)
 
-      elif msg['text'] == '/4': #crediti
-         mess3 = 'Bot creato da  @filippo1996 , un appassionato di storia, per permettere a tutti gli appassionati di godere dei contenuti del professore con un semplice click.'
-         bot.sendMessage(chat_id, mess3)
-         quit()
-
       elif msg['text'] == '/start': #inizio dell'uso del bot
          bot.sendMessage(chat_id, 'Benvenuto/a: scrivere /1 per avere la tua dose di cerbero quotidiana.')
 
